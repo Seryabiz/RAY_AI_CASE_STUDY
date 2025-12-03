@@ -3,7 +3,7 @@
 ## Enterprise Document Intelligence Demo with RAG
 
 This repository demonstrates a **Retrieval-Augmented Generation (RAG)** pipeline for enterprise document analysis using free Hugging Face models. It ingests PDFs, tables, and images, extracts key information, and synthesizes structured outputs. I utilize **microsoft/phi-1_5** LLM to extract relevant insights from the input documents. For improved performance a robust LLM could be used like OpenAI to improve on the output. To ensure that the process is scalable and can handle millions of documents, a high power processor could be used to handle larger chunks of texts and images making it more efficient.
-On my [https://github.com/Seryabiz/RAY_AI_CASE_STUDY/blob/main/DEMO.ipynb](DEMO) I have done a demonstration of how the workflow can be useful and the output can be maximized by tweaking the queries and utilizing a heavier LLM.
+On my [DEMO](https://github.com/Seryabiz/RAY_AI_CASE_STUDY/blob/main/DEMO.ipynb) I have done a demonstration of how the workflow can be useful and the output can be maximized by tweaking the queries and utilizing a heavier LLM.
 The demo was run on google colab to have access to GPUs that improve the processing of the documents.
 Below is a the structure of my workflow.
 
