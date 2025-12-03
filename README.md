@@ -13,9 +13,10 @@ Below is a the structure of my workflow.
 flowchart TD
     A["Documents Folder - PDFs, Tables, Images"] --> B["Ingestion Module (src/ingestion.py)"]
     B --> C["Chunking Module (src/chunking.py)"]
-    C --> D["Hybrid Index - Dense + Sparse (src/hybrid_retrieval.py)"]
-    D --> E["Agent (src/agent.py) with LLM"]
-    E --> F["Structured JSON Output & Summaries"]
+    C --> D["Indexing (src/indexing.py)"]
+    D --> E["Hybrid Index - Dense + Sparse (src/hybrid_retrieval.py)"]
+    E --> F["Agent (src/agent.py) with LLM"]
+    F --> G["Structured JSON Output & Summaries"]
 ```
 
 ## Evaluation Example
